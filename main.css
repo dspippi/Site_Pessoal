@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+
 .img-src {
     position: fixed;
     background-position: top;
@@ -11,23 +31,23 @@
 }
 
 #quemsoueu {
-
     width: 400px;
     height: 550px;
     margin: auto;
-    background-color: rgba(11, 0, 34, 0.966);
+    background-color: rgba(19, 15, 43, 0.801);
     top: 50%;
-    margin-top: 250px;
+    margin-top: 350px;
+    border: 1.5px solid rgb(185, 185, 185);
+    border-radius: 2rem;
 }
 
 .blurred {
-    opacity: 0.0;
-
+    opacity: 1.0;
 }
 
 .article {
     width: 400px;
-    height: 2000px;
+    height: 1500px;
 }
 
 .perfil{
@@ -38,7 +58,7 @@
 }
 
 h1 {
-    font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
     color: #fff;
     position: relative;
     
@@ -46,20 +66,16 @@ h1 {
     top: 50%;
     margin-top: -0250px;
     left: 50%;
-    margin-left: -68px;
+    margin-left: -72px;
 
 }
 
-h2 {
-    font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
-    color: #fff;
-    position: fixed;
-    z-index: 9999;
-    font-size: 50px;
-    top: 50%;
-    margin-top: -25px;
-    left: 50%;
-    margin-left: -103px;
-    /*background-color: rgba(43, 42, 42, 0.932);
-    */
+P{
+    font-weight: normal;
+    text-align: center;
+    display: flex;
+    margin-top: 300px;
+    
+    
 }
+
