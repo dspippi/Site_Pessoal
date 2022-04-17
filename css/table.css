@@ -1,0 +1,42 @@
+.article {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;  /*1000*/
+    height:70rem;
+    width: 90%;
+    left: 100px;
+    right: 100px;
+    justify-content:space-evenly;
+    border-radius: 10px;
+    color: black;
+    
+}
+.borda{
+    width: 10px;
+    background-color: rgba(19, 15, 43, 0.801);
+    border-radius: 10px;
+    height: 50rem;
+    border: 1.5px solid rgb(185, 185, 185);
+    border-radius: 20px;
+}
+.conteudo{
+    width: 80%;
+    height: 50rem;
+    padding: 25px;
+    font-size: 20px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    background-color: rgba(207, 207, 207, 0.904);
+}
+.texto{
+    font-size: 20px;
+}
+
+h2 {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+P{
+    font-weight: normal;
+    padding: 15px;
+    
+}
