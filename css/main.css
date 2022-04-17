@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
-
-
 * {
   padding: 0;
   margin: 0;
@@ -15,6 +13,7 @@ body {
   color: #fff;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 700;
+  display: flex;
 }
 
 
@@ -27,55 +26,43 @@ body {
     left: 0;
     right: 0;
     z-index: -1;
-
 }
 
 #quemsoueu {
-    width: 400px;
-    height: 550px;
+    width: 30%;
+    height: 600px;
     margin: auto;
     background-color: rgba(19, 15, 43, 0.801);
-    top: 50%;
+    font-size: 20px;
+    text-align: center;
     margin-top: 350px;
+    margin-bottom: 400px;
     border: 1.5px solid rgb(185, 185, 185);
-    border-radius: 2rem;
+    border-radius: 20px;
+    
 }
 
 .blurred {
     opacity: 1.0;
 }
 
-.article {
-    width: 400px;
-    height: 1500px;
-}
 
 .perfil{
    display: flex;
    justify-content: center;
    align-items: center;
+   text-align: center;
+   padding: 0px;
+   
    
 }
-
 h1 {
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
-    color: #fff;
-    position: relative;
-    
-    font-size: 35px;
-    top: 50%;
-    margin-top: -0250px;
-    left: 50%;
-    margin-left: -72px;
-
-}
-
-P{
-    font-weight: normal;
-    text-align: center;
-    display: flex;
-    margin-top: 300px;
-    
-    
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  margin: 10px;
+   
+  
+  text-align: center;
+  
 }
 
